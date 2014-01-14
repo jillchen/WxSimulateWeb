@@ -28,7 +28,7 @@
                     <LoggedInTemplate>
                         欢迎使用 <span class="bold">
                             <asp:LoginName ID="HeadLoginName" runat="server" />
-                        </span>! 
+                        </span>!
                     </LoggedInTemplate>
                 </asp:LoginView>
             </div>
@@ -70,6 +70,14 @@
                             <Items>
                                 <asp:MenuItem NavigateUrl="~/Default.aspx" Text="主页" />
                                 <asp:MenuItem NavigateUrl="~/About.aspx" Text="关于" />
+                                <asp:MenuItem NavigateUrl="~/Business/MultiSendMsg.aspx" Text="群送图文信息" Value="群送图文信息">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="公众号管理" Value="公众号管理" NavigateUrl="~/Business/AddPubUser.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="群发记录" Value="群发记录" NavigateUrl="~/Business/SendingRecord.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Account/ChangePassword.aspx" Text="修改登陆密码" Value="修改登陆密码">
+                                </asp:MenuItem>
                             </Items>
                         </asp:Menu>
                     </LoggedInTemplate>
