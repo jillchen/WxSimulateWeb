@@ -1,0 +1,30 @@
+﻿.divSendMsg
+{
+    float: left;
+    clear: left;
+}
+
+#ImageContainer img
+{
+    margin: 10px;
+    vertical-align: top;
+    height: 165px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 4px #535353;
+    box-shadow: 2px 2px 4px #535353;
+}
+#Uploader_filelist
+{
+    height: 100px;
+}
+#ImagePreview
+{
+    padding: 20px;
+    background: white;
+    position: relative;
+    border-radius: 8px;
+}
+#ImagePreview img
+{
+    
+}

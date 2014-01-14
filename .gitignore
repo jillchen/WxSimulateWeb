@@ -1,0 +1,11 @@
+packages/
+WxSimulateWeb/tempuploads/
+WxSimulateWeb/UploadedImages/
+*/bin/
+*/Bin/
+*/obj/
+*.csproj.user
+*.suo
+*.exclude
+*.dll
+*.pdb
